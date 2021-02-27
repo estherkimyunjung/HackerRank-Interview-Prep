@@ -16,7 +16,7 @@ const countingValleys = (steps, path) => {
       ++result;
     }
   }
-  console.log(result);
+  // console.log(result);
   return result;
 };
 
