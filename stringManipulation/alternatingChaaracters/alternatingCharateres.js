@@ -6,10 +6,9 @@ function alternatingCharacters(s) {
   const arrPath = s.split("");
 
   for (let i = 0; i < arrPath.length - 1; i++) {
-    if (
-      (arrPath[i] === "A" && arrPath[i + 1] === "A") ||
-      (arrPath[i] === "B" && arrPath[i + 1] === "B")
-    ) {
+    if (arrPath[i] === arrPath[i + 1]) {
+      //(arrPath[i] === "A" && arrPath[i + 1] === "A") ||
+      arrPath[i] === "B" && arrPath[i + 1] === "B";
       ++count;
     }
   }
