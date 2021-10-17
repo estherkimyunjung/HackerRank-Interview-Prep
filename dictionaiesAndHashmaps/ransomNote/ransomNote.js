@@ -15,3 +15,7 @@ checkMagazine(
   ["two", "times", "three", "is", "not", "four"],
   ["two", "times", "two", "is", "four"]
 );
+checkMagazine(
+  ["two", "times", "three", "is", "not", "four"],
+  ["two", "times", "three", "is", "four"]
+);
